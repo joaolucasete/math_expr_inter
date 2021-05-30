@@ -1,0 +1,8 @@
+lib: [
+  "/home/codando/math_expr_inter/_esy/default/store/b/math__expr__inter-2c9ddf28/install/default/lib/math_expr_inter/META"
+  "/home/codando/math_expr_inter/_esy/default/store/b/math__expr__inter-2c9ddf28/install/default/lib/math_expr_inter/dune-package"
+  "/home/codando/math_expr_inter/_esy/default/store/b/math__expr__inter-2c9ddf28/install/default/lib/math_expr_inter/opam"
+]
+bin: [
+  "/home/codando/math_expr_inter/_esy/default/store/b/math__expr__inter-2c9ddf28/install/default/bin/math_expr_inter"
+]

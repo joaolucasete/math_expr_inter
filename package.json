@@ -1,0 +1,26 @@
+{
+  "name": "math_expr_inter",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildDev": "refmterr dune build --promote-install-files --root . --only-package #{self.name}",
+    "release": {
+      "rewritePrefix": true
+    },
+    "buildEnv": {
+      "ODOC_SYNTAX": "re"
+    }
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/menhir": "*",
+    "@opam/ppx_deriving": "5.2.1",
+    "@opam/reason": "^3.7.0",
+    "@opam/sedlex": "2.3",
+    "ocaml": "4.10.x",
+    "refmterr": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*"
+  }
+}

@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (public_name math_expr_inter)
+ (libraries mylexer ast inter))
