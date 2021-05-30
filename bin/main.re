@@ -1,9 +1,7 @@
 open Mylexer;
 
 let () = {
-  let input = input_line(stdin);
-
-  let expression = input;
+  let expression = input_line(stdin);
   let lexerbuf = Lexing.from_string(expression);
   let parsed = Parser.main(Lexer.read_token, lexerbuf);
   switch (parsed) {
